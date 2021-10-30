@@ -12,6 +12,7 @@ const buildHTML = (XHR) => {
   return html;
 };
 
+
 function post (){
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
